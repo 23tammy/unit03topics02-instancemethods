@@ -24,15 +24,19 @@ public class Point2D {
     }
 
     public double distanceTo(Point2D other) {
-        this.x
+        return Math.sqrt(Math.pow((this.x-other.x),2)+Math.pow((this.y-other.y),2));
     }
 
     public String toString (){
-        String result = "";
+        return ("(" + x + ", " + y + ")");
     }
 
     public static void main(String[] args){
-
+        Point2D p1 = new Point2D(1, 1);
+        Point2D p2 = new Point2D(-2,4);
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p1.distanceTo(p2));
     }
 
 
