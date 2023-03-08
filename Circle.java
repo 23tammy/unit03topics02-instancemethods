@@ -50,8 +50,8 @@ public class Circle {
         Point2D p2 = new Point2D(1,1);
         Circle c1 = new Circle(p, 5);
         Circle c2 = new Circle(p2, 3);
-        // System.out.println(c1.getArea());
-        // System.out.println(c1.getCircumference());
+        System.out.println(c1.getArea());
+        System.out.println(c1.getCircumference());
         System.out.println(c1.intersects(c2));
         System.out.println(c1.contains(c2));
     }
