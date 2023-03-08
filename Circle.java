@@ -46,7 +46,7 @@ public class Circle {
 
 
     public static void main(String[] args){
-        Point2D p = new Point2D(6, 8);
+        Point2D p = new Point2D(1, 1);
         Point2D p2 = new Point2D(1,1);
         Circle c1 = new Circle(p, 5);
         Circle c2 = new Circle(p2, 3);
